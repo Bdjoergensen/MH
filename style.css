@@ -1,27 +1,63 @@
 @charset "utf-8";
 /* CSS Document */
 
+
 /* media query for overskrifter*/
 @media screen and (max-width: 400px) {
 
 h1 { width: 70%; }
+	
 h5 { width: 80%; }
 .shape{width: 80%;}
 	
 .flex-container { flex-direction: columns;}
 }
 
-body{
+ body{
 background-image: url("img/pexels-photo-235985.jpeg");
 background-repeat: no-repeat;
 
 
 background-attachment: fixed;
-padding: 0;
-margin: 0;
+
 font-family: 'Poppins', sans-serif;
 background-color: transparent;
+
+   height:100%; 
+
+		margin: 0;
+	padding: 0;
+
+
+
 }
+#container{
+	min-height: 100%;
+}
+#main{
+	owerflow: auto;
+	padding-bottom: 100px;
+
+}
+#footer{
+	background-color: #7F1710;
+	position: relative;
+	height: 200px;
+	margin-top: -100px;
+	clear: both;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+	body {
+		flex-direction: column-reverse;
+	}
+}
+
+
 
 
 
@@ -40,34 +76,48 @@ opacity: 1;
 .responsiveimg {
 	position: absolute;
 	top: 130px;
-	left: 66%;
+	left: 64%;
 
 }
 
 /* iconer */
 .responsiveimg2 {
 	position: absolute;
-	top: 40%;
+	top: 45%;
 	left: 5%;
 
 }
 .responsiveimg3 {
 	position: absolute;
-	top: 55%;
+	top: 60%;
 	left: 5%;
 
 }
 .responsiveimg4 {
 	position: absolute;
-	top: 68%;
+	top: 75%;
 	left: 5%;
 
 }
 /* Hvad er på fad */
 .responsiveimg5 {
 	position: absolute;
-	top: 660px;
+	top: 700px;
 	left: 5%;
+
+}
+/* om billeder*/
+.responsiveimg6 {
+	position: absolute;
+	top: 190px;
+	left: 60%;
+
+}
+
+.responsiveimg7 {
+	position: absolute;
+	top: 790px;
+	left: 60%;
 
 }
 
@@ -163,7 +213,7 @@ h2 {
 }
 h2 span {
   position: absolute;
-	top: 560px;
+	top: 600px;
 	left: 55px;
 	display: block;
   
@@ -177,6 +227,26 @@ h3{
 	color: #fff;
 	font-family: "Paytone One";
 }
+h4{
+position: absolute;
+top: 200px;
+left: 62px;
+width: 48%;
+height: 100px;
+text-align: left;
+font: normal normal normal 29px/39px Segoe UI;
+letter-spacing: 0px;
+color: black;
+opacity: 1;
+}
+h5{
+		position: absolute;
+		color: #FFFFFF;
+		font: normal normal normal 29/39px Segoe UI;
+		left: 45%
+	
+}
+h5 {text-align: center;}
 
 /* menu*/
 ul {
@@ -334,10 +404,7 @@ input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
 }
-main{
-  position: relative;
 
-}
 
 
 
