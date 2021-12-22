@@ -16,20 +16,12 @@ h5 { width: 80%; }
  body{
 background-image: url("img/pexels-photo-235985.jpeg");
 background-repeat: no-repeat;
-
-
 background-attachment: fixed;
-
 font-family: 'Poppins', sans-serif;
 background-color: transparent;
-
-   height:100%; 
-
-		margin: 0;
-	padding: 0;
-
-
-
+height:100%; 
+margin: 0;
+padding: 0;
 }
 #container{
 	min-height: 100%;
@@ -128,11 +120,11 @@ opacity: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 85%; /* arbitrary valye */
+  width: 85%; 
   margin: 0px auto;
 }
 .-fx-gal-item {
-  width: 30%; /* for 3 columns */
+  width: 30%;
   margin: 5px;
   overflow: hidden;
   border-radius: 15px;
@@ -185,6 +177,8 @@ opacity: 1;
   transform: translate(-50%, -50%);
 	background-color: white;
 }
+
+/* Overskrifter */
 
 h1 {
  
